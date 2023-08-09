@@ -1,4 +1,4 @@
-import {View, ViewProps} from "react-native";
+import {View, type ViewProps} from "react-native";
 
 export const Box = (props: ViewProps) => {
 	const {style, children} = props;
